@@ -22,10 +22,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 </style> 
-<link href="https://fonts.bunny.net/css2?family=Angkor:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.bunny.net/css2?family=Acme:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-    body {
-        font-family: 'Angkor', sans-serif;
+    .texto {
+        font-family: 'Acme', sans-serif;
     }
 </style>
 
@@ -133,7 +133,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               
               </svg>
               <!-- partial -->
-              
+              <div class="texto">
               <p></p>
               <strong>José y Flor</strong>,
               <p></p>
@@ -143,7 +143,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               Te espero!
               <p></p>
               Simón Martín </nav><p></p>
-             
+              </div>
                 <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet">
                     Agendá mi cumple en Calendario
                 </a>
