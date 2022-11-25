@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Invitaciones</title>
+        <title>Cumpleaños Simón</title>
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -36,7 +36,7 @@
                 </div>
             @endif
 
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8" style="background: url(img/fondo.jpg) center;">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                    <h1 style="color: white">Cumpleaños Simón {{$codigo}} </h1>
                 </div>
