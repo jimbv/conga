@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/invitacion/{codigo}', function ($codigo) {
+    
+    return view('invitacion', ['codigo' => $code]); 
+});
