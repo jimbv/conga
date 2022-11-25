@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 Route::get('/invitacion/{codigo}', function ($codigo) {
     
-    return view('invitacion', ['codigo' => $code]); 
+    return view('invitacion', ['codigo' => $codigo]); 
 });
