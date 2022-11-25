@@ -10,7 +10,7 @@
   
   @media only screen and (max-width: 600px) {
     :root {
-      --size: 2;
+      
     }
   }
   @media only screen and (max-width: 400px) {
@@ -44,7 +44,7 @@
     transform: skew(calc(var(--skew) * -1deg), calc(var(--skew) * -1deg));
     font-size: calc(var(--size) * 3vmax);
     font-weight: 700;
-    color: Crimson;
+    color: #BB1207;
     text-transform: uppercase;
     text-align: right;
     border: 3px solid var(--boxshadow);

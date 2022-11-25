@@ -7,11 +7,14 @@
         <title>Cumpleaños Simón</title>
  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/style.css?v=1">
         
         </head>
         <body style="background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01 ;">
-            <div style="background: rgba(255,255,255,0.5); border-radius:5px;padding:5px;">
+            <div style="background: rgba(255,255,255,0.7);
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;">
             <div class="lightning">
                 <div class="noisy">
                   <span>MI CUMPLEAÑOS</span>
@@ -110,10 +113,19 @@
               
               </svg>
               <!-- partial -->
+
+              José y Flor,
+              <p></p>
+              Los invito a mi primer cumpleaños a realizarse el día sábado 10/12/2022.
+              <br/>
+              Te esperamos!
+              <p></p>
               
              
-              <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet"><img src="http://www.google.com/calendar/images/ext/gc_button6_es.gif" border="0">  Agendar cumple en Calendario</a>
-            </div>
+                <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet">
+                    Agendar cumple en Calendario
+                </a>
+                </div>
               </body>
               </html>
          
