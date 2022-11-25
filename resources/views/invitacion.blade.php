@@ -125,16 +125,18 @@
     </style>
     </head>
     <body>
-        <div class="lightning">
-            <div class="noisy">
-              <span>MI CUMPLEAÑOS</span>
-              SIMÓN
-              <span>1 AÑO</span>
-            </div>
-
-
-          </div> 
-
+ 
+<div class="lightning">
+    <div class="noisy">
+      <span>MI CUMPLEAÑOS</span>
+      SIMÓN
+      <span>1 AÑO</span>
+    </div>
+  
+  
+  </div> 
+  
+  <ul></ul>
           
 <svg id="svgfilters" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
 
