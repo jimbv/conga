@@ -10,12 +10,12 @@
         <link rel="stylesheet" href="/css/style.css">
         
         </head>
-        <body style="background: url(/img/fondo.jpg) center no-repeat;">
-
+        <body style="background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01 ;">
+            <div style="background: rgba(255,255,255,0.5); border-radius:5px;padding:5px;">
             <div class="lightning">
                 <div class="noisy">
                   <span>MI CUMPLEAÑOS</span>
-                  SIMÓN
+                  <center>SIMÓN</center>
                   <span>1 AÑO</span>
                 </div>
               
@@ -110,8 +110,10 @@
               
               </svg>
               <!-- partial -->
-              <i class="fa fa-calendar" aria-hidden="true"></i>   Agendar cumple en Calendario</a>
-                
+              
+             
+              <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet"><img src="http://www.google.com/calendar/images/ext/gc_button6_es.gif" border="0">  Agendar cumple en Calendario</a>
+            </div>
               </body>
               </html>
          
