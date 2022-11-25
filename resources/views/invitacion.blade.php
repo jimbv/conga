@@ -21,13 +21,19 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
 }
+</style> 
+<link href="https://fonts.bunny.net/css2?family=Angkor:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Angkor', sans-serif;
+    }
 </style>
 
         </head>
         <body style="background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01 ;">
             <div style="background: rgba(255,255,255,0.85);
             border-radius: 10px;
-            padding: 10px;
+            padding: 40px;
             margin: 10px;">
             <div class="lightning">
                 <div class="noisy">
