@@ -34,13 +34,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         outline: none;
         cursor: pointer;
         font-weight: 500; 
-        padding: 15px 31px;
+        padding: 15px 18px;
         border-radius: 4px;
         color: #fff;
         background: #a70000;
         line-height: 1.15;
-        font-size: 16px; 
-        word-spacing: 0px; 
+        font-size: 16px;  
         text-decoration: none;  
         border: none;
         text-align: center;
