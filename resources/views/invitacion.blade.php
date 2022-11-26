@@ -9,28 +9,22 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="/css/style.css?v=1">
         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+       <script lang="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/fontawesome.min.js"></script>
+     
 
 <!-- MOVIMIENTO -->
         <link
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
-<script lang="javascript">
-function mover() {
-  document.getElementById('btn_add').className = 'boton_animado';
-}
-</script>
+/> 
 
 <style>
   .lightning {  
   animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
 }
-
-.boton_animado {  
-  animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
-}
+ 
 </style> 
 <link href="https://fonts.bunny.net/css2?family=Acme:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
@@ -43,25 +37,20 @@ function mover() {
         display: inline-block;
         outline: none;
         cursor: pointer;
-        font-weight: 500;
-        border-radius: 3px;
-        padding: 0 16px;
+        font-weight: 500; 
+        padding: 10 26px;
         border-radius: 4px;
         color: #fff;
         background: #a70000;
         line-height: 1.15;
         font-size: 14px; 
-        word-spacing: 0px;
-        letter-spacing: .0892857143em;
+        word-spacing: 0px; 
         text-decoration: none;  
         border: none;
         text-align: center;
         box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
         transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
-        :hover {
-            background: rgb(98, 0, 238);
-            box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
-        }
+        
                 
     }
 </style>
@@ -183,10 +172,9 @@ function mover() {
               </div>
               
                 <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet"
-                 target="_blank">
-                 <div id="btn_add">
-                  <div class="btn" onclick="mover()">  Agendá mi cumple en Calendario </div>
-                </div>
+                 target="_blank"> 
+                  <div class="btn"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Agendá mi cumple en el Calendario </div>
+                 
                 </a>
                 </div>
               </body>
