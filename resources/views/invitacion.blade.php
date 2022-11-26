@@ -8,11 +8,7 @@
  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="/css/style.css?v=1">
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-       <script lang="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/fontawesome.min.js"></script>
-     
-
+         
 <!-- MOVIMIENTO -->
         <link
 rel="stylesheet"
@@ -173,7 +169,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               
                 <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet"
                  target="_blank"> 
-                  <div class="btn"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Agendá mi cumple en el Calendario </div>
+                  <div class="btn"><img src="/img/calendar.png" style="height: 15px;">  Agendá mi cumple en el Calendario </div>
                  
                 </a>
                 </div>
