@@ -15,10 +15,20 @@
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
+<script lang="javascript">
+function mover() {
+  document.getElementById('btn_add').className = 'boton_animado';
+}
+</script>
 
 <style>
   .lightning {  
   animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.boton_animado {  
+  animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 </style> 
@@ -27,7 +37,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     .texto {
         font-family: 'Acme', sans-serif;
     }
-    .button{
+    .btn{
         
         font-family: 'Acme', sans-serif;
         display: inline-block;
@@ -176,7 +186,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               </div>
               
                 <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet">
-                  <div style="button">  Agendá mi cumple en Calendario </div>
+                  <div class="btn" onclick="mover()" id="btn_add">  Agendá mi cumple en Calendario </div>
                 </a>
                 </div>
               </body>
