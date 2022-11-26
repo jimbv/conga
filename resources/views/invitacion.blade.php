@@ -48,15 +48,12 @@ function mover() {
         padding: 0 16px;
         border-radius: 4px;
         color: #fff;
-        background: #6200ee;
+        background: #a70000;
         line-height: 1.15;
-        font-size: 14px;
-        height: 36px;
+        font-size: 14px; 
         word-spacing: 0px;
         letter-spacing: .0892857143em;
-        text-decoration: none;
-        text-transform: uppercase;
-        min-width: 64px;
+        text-decoration: none;  
         border: none;
         text-align: center;
         box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
@@ -185,8 +182,11 @@ function mover() {
               Simón Martín </nav><p></p>
               </div>
               
-                <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet">
-                  <div class="btn" onclick="mover()" id="btn_add">  Agendá mi cumple en Calendario </div>
+                <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet"
+                 target="_blank">
+                 <div id="btn_add">
+                  <div class="btn" onclick="mover()">  Agendá mi cumple en Calendario </div>
+                </div>
                 </a>
                 </div>
               </body>
