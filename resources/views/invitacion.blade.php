@@ -27,6 +27,36 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     .texto {
         font-family: 'Acme', sans-serif;
     }
+    .button{
+        
+        font-family: 'Acme', sans-serif;
+        display: inline-block;
+        outline: none;
+        cursor: pointer;
+        font-weight: 500;
+        border-radius: 3px;
+        padding: 0 16px;
+        border-radius: 4px;
+        color: #fff;
+        background: #6200ee;
+        line-height: 1.15;
+        font-size: 14px;
+        height: 36px;
+        word-spacing: 0px;
+        letter-spacing: .0892857143em;
+        text-decoration: none;
+        text-transform: uppercase;
+        min-width: 64px;
+        border: none;
+        text-align: center;
+        box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+        transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+        :hover {
+            background: rgb(98, 0, 238);
+            box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+        }
+                
+    }
 </style>
 
         </head>
@@ -144,8 +174,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               <p></p>
               Simón Martín </nav><p></p>
               </div>
+              
                 <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet">
-                    Agendá mi cumple en Calendario
+                  <div style="button">  Agendá mi cumple en Calendario </div>
                 </a>
                 </div>
               </body>
