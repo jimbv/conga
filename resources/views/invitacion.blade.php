@@ -61,7 +61,7 @@ $( document ).ready(function() {
 <style>
   body{
 
-    background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01;
+    background: url(/img/wallpaper.jpg) center no-repeat fixed #FFFF01;
      width:100%!important;
   }
   .lightning{
