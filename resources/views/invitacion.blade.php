@@ -50,9 +50,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
      width:100%!important;
   }
   .lightning {   
-  animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
-}
+  }
  
 </style>  
         </head>
