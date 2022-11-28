@@ -68,7 +68,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               
               <ul></ul>
               
-              <svg id="svgfilters" viewBox="0 0 1400 1400" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+              <svg id="svgfilters" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
               
                 <defs>
               
