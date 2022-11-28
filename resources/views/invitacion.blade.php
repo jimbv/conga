@@ -17,6 +17,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 <style>
   .lightning {  
+    width: 500px;
   animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
 }
@@ -50,7 +51,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     }
 </style> 
         </head>
-        <body style="background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01; width:100%;overflow:hidden;">
+        <body style="background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01; width:100%;">
             <div style="background: rgba(255,255,255,0.85);
             border-radius: 10px;
             padding: 40px;
