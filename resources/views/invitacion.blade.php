@@ -43,6 +43,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 
     }
 </style>
+<script
+src="https://code.jquery.com/jquery-2.2.4.min.js"
+integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+crossorigin="anonymous"></script>
+<script>
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
+
+</script>
+
 <style>
   body{
 
@@ -50,9 +61,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
      width:100%!important;
   }
   .lightning {   
-    overflow: hidden;
    animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+    animation-duration: 2s; /* don't forget to set a duration! */
 }
  
 </style>  
