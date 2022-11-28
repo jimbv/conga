@@ -68,8 +68,8 @@ $( document ).ready(function() {
     display: none;
   }
   .movimiento {   
-    display: normal;
-   animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+    display: block;
+    animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
 }
  
