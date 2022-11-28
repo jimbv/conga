@@ -65,10 +65,11 @@ $( document ).ready(function() {
      width:100%!important;
   }
   .lightning{
-    display: none;
+    position: relative;
+    left: -2000px;
   }
   .movimiento {   
-    display: block;
+    left: 0;
     animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
 }
