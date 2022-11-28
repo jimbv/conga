@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('invitacion/{codigo}', function ($codigo) {
-    $prueba = $_SERVER['HTTP_X_FORWARDED'];
+    $prueba = $ip = trim(shell_exec("dig +short myip.opendns.com @resolver1.opendns.com"));
     return view('invitacion', ['prueba' => $prueba]); 
 });
