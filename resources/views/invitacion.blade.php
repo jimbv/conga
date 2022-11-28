@@ -154,7 +154,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               
               </svg>
               <!-- partial -->
-              <div class="texto">
+              <div class="texto" style="position: relative;">
               <p></p>
               <strong>José y Flor</strong>,
               <p></p>
@@ -163,7 +163,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               <br/>
               Te espero!
               <p></p>
-              Simón Martín </nav><p></p>
+              <img src="/img/flash.gif" style="position: absolute;bottom:0px;right:0px;" />Simón Martín </nav><p></p>
+
               </div>
               
                 <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet"
