@@ -65,11 +65,96 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               
               </div> 
               
+              <!--
+              <svg id="svgfilters" width="50" height="50" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
               
+                <defs>
+              
+                  <filter id="squiggly-00">
+              
+                    <feTurbulence baseFrequency="0.32" id="turbulence-00" numOctaves="3" result="noise" seed="10"></feTurbulence>
+              
+                    <feDisplacementMap id="displacement-00" in2="noise" in="SourceGraphic" scale="18"></feDisplacementMap>
+              
+                  </filter>
+              
+                  <filter id="squiggly-0">
+              
+                    <feturbulence basefrequency="0.02" id="turbulence-0" numoctaves="3" result="noise" seed="0"></feturbulence>
+              
+                    <fedisplacementmap id="displacement-0" in2="noise" in="SourceGraphic" scale="2"></fedisplacementmap>
+              
+                  </filter>
+              
+                  <filter id="squiggly-1">
+              
+                    <feturbulence basefrequency="0.02" id="turbulence-1" numoctaves="3" result="noise" seed="1"></feturbulence>
+              
+                    <fedisplacementmap in2="noise" in="SourceGraphic" scale="3"></fedisplacementmap>
+              
+                  </filter>
+              
+                  <filter id="squiggly-2">
+              
+                    <feturbulence basefrequency="0.02" id="turbulence-2" numoctaves="3" result="noise" seed="2"></feturbulence>
+              
+                    <fedisplacementmap in2="noise" in="SourceGraphic" scale="2"></fedisplacementmap>
+              
+                  </filter>
+              
+                  <filter id="squiggly-3">
+              
+                    <feturbulence basefrequency="0.02" id="turbulence-3" numoctaves="3" result="noise" seed="3"></feturbulence>
+              
+                    <fedisplacementmap in2="noise" in="SourceGraphic" scale="3"></fedisplacementmap>
+              
+                  </filter>
+              
+                  <filter id="squiggly-4">
+              
+                    <feturbulence basefrequency="0.02" id="turbulence-4" numoctaves="3" result="noise" seed="4"></feturbulence>
+              
+                    <fedisplacementmap in2="noise" in="SourceGraphic" scale="1"></fedisplacementmap>
+              
+                  </filter>
+              
+              
+              
+                  <filter id="disp">
+              
+                    <feTurbulence id="feTurbulence836" result="turbulence" baseFrequency="1" seed="360" numOctaves="1" type="fractalNoise" />
+              
+                    <feDisplacementMap id="feDisplacementMap838" xChannelSelector="R" yChannelSelector="G" scale="0.6" in2="turbulence" in="SourceGraphic" />
+              
+                  </filter>
+              
+              
+              
+                  <filter id="noise">
+              
+                    <feComponentTransfer in="SourceGraphic" result="ct">
+              
+                      <feFuncB type="linear" slope=".6" />
+              
+                      <feFuncG type="linear" slope="0" />
+              
+                    </feComponentTransfer>
+              
+                    <feTurbulence type="fractalNoise" baseFrequency="2" numOctaves="10" result="noisy" />
+              
+                    <feColorMatrix type="saturate" values=".5" />
+              
+                    <feBlend in="ct" in2="noisy" mode="multiply" />
+              
+                  </filter>
+              
+                </defs>
+              
+              </svg>-->
               <!-- partial -->
               <div class="texto" style="position: relative;">
               <p></p>
-              <strong>José y Flor</strong>,
+              <strong>José y Florss</strong>,
               <p></p>
               Los invito a mi primer cumpleaños a realizarse el día sábado 10/12/2022 en Bv. 
               Eva Perón y Rodriguez Peña.
