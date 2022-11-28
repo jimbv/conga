@@ -48,10 +48,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         
                 
     }
-</style>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</style> 
         </head>
-        <body style="background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01 ;">
+        <body style="background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01; width:100%;">
             <div style="background: rgba(255,255,255,0.85);
             border-radius: 10px;
             padding: 40px;
