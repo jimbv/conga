@@ -15,13 +15,7 @@ rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 /> 
 
-<style>
-  .lightning {   
-  animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
-}
- 
-</style> 
+
 <link href="https://fonts.bunny.net/css2?family=Acme:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
     .texto {
@@ -48,9 +42,21 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         
                 
     }
-</style> 
+</style>
+<style>
+  body{
+
+    background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01;
+     width:100%!important;
+  }
+  .lightning {   
+  animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+ 
+</style>  
         </head>
-        <body style="background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01; width:100%;">
+        <body>
             <div style="background: rgba(255,255,255,0.85);
             border-radius: 10px;
             padding: 40px;
@@ -153,8 +159,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               </svg>-->
               <!-- partial -->
               <div class="texto" style="position: relative;">
-              <p></p>
-              <strong>José y Florss</strong>,
+              <p></p> <br/>
+              <strong>José y Flor</strong>,
               <p></p>
               Los invito a mi primer cumpleaños a realizarse el día sábado 10/12/2022 en Bv. 
               Eva Perón y Rodriguez Peña.
