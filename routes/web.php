@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('invitacion/{codigo}', function ($codigo) {
-    $prueba = request()->ip();
+    $prueba = $_SERVER['HTTP_X_FORWARDED'];
     return view('invitacion', ['prueba' => $prueba]); 
 });
