@@ -163,7 +163,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               <br/>
               Te espero!
               <p></p>
-              <img src="/img/flash.gif" style="position: absolute;bottom:0px;right:0px;" />Simón Martín </nav><p></p>
+              <img src="/img/flash.gif" style="position: absolute;    top: -160px;
+              right: -8px;
+              height: 150px; " />Simón Martín </nav><p></p>
 
               </div>
               
