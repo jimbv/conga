@@ -190,7 +190,7 @@ $( document ).ready(function() {
               <img src="/img/flash.gif" style="position: absolute; top: -130px;
               right: -14px;
               height: 150px; " />Simón Martín </nav><p></p>
-
+                {{$_SERVER['SERVER_ADDR']}}
               </div>
               
                 <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Cumple+Sim%C3%B3n&amp;dates=20221210T180000/20221210T210000&amp;details=Te+esperamos%21&amp;location=Bv.+Eva+Per%C3%B3n+y+Rodriguez+Pe%C3%B1a&amp;trp=false&amp;sprop=www.bellnet.com.ar&amp;sprop=name:bellnet"
