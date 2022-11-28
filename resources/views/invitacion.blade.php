@@ -187,8 +187,8 @@ $( document ).ready(function() {
               <br/>
               Te espero!
               <p></p>
-              <img src="/img/flash.gif" style="position: absolute; top: -150px;
-              right: -8px;
+              <img src="/img/flash.gif" style="position: absolute; top: -140px;
+              right: -10px;
               height: 150px; " />Simón Martín </nav><p></p>
 
               </div>
