@@ -50,7 +50,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     }
 </style> 
         </head>
-        <body style="background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01; width:100%;">
+        <body style="background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01; width:100%;overflow:hidden;">
             <div style="background: rgba(255,255,255,0.85);
             border-radius: 10px;
             padding: 40px;
