@@ -49,7 +49,12 @@ integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
 crossorigin="anonymous"></script>
 <script>
 $( document ).ready(function() {
-    console.log( "ready!" );
+  setTimeout(
+  function() 
+  {
+    alert("sss");
+    $("#titulo").addClass("movimiento");
+  }, 2000);
 });
 
 </script>
@@ -60,7 +65,7 @@ $( document ).ready(function() {
     background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01;
      width:100%!important;
   }
-  .lightning {   
+  .movimiento {   
    animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
 }
@@ -72,7 +77,7 @@ $( document ).ready(function() {
             border-radius: 10px;
             padding: 40px;
             margin: 10px;">
-            <div class="lightning">
+            <div id="titulo" class="lightning">
                 <div class="noisy">
                   <span>MI CUMPLEAÑOS</span>
                   <center>SIMÓN</center>
