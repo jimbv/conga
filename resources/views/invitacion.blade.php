@@ -51,8 +51,7 @@ crossorigin="anonymous"></script>
 $( document ).ready(function() {
   setTimeout(
   function() 
-  {
-    alert("sss");
+  { 
     $("#titulo").addClass("movimiento");
   }, 2000);
 });
@@ -65,7 +64,11 @@ $( document ).ready(function() {
     background: url(/img/fondo.jpg) center no-repeat fixed #FFFF01;
      width:100%!important;
   }
+  .lightning{
+    display: none;
+  }
   .movimiento {   
+    display: normal;
    animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
 }
