@@ -79,7 +79,7 @@ $( document ).ready(function() {
             <div style="background: rgba(255,255,255,0.85);
             border-radius: 10px;
             padding: 40px;
-            margin: 10px;">
+            margin: 10px;overflow:hidden;">
             <div id="titulo" class="lightning">
                 <div class="noisy">
                   <span>MI CUMPLEAÑOS</span>
