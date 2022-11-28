@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('invitacion/{codigo}', function ($codigo) {
-  
-    return view('invitacion', ['codigo' => $codigo]); 
+    $prueba = $_SERVER['SERVER_ADDR'];
+    return view('invitacion', ['prueba' => $prueba]); 
 });
