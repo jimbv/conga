@@ -16,8 +16,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 /> 
 
 <style>
-  .lightning {  
-    width: 500px;
+  .lightning {   
   animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
 }
@@ -66,9 +65,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
               
               </div> 
               
-              <ul></ul>
               
-              <svg id="svgfilters" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+              <svg id="svgfilters" width="50" height="50" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
               
                 <defs>
               
