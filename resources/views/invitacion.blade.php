@@ -180,12 +180,9 @@ $( document ).ready(function() {
               <!-- partial -->
               <div class="texto" style="position: relative;">
               <p></p> <br/>
-              <strong>José y Flor</strong>,
+              <strong>{{$invitados}}</strong>,
               <p></p>
-              Los invito a mi primer cumpleaños a realizarse el día sábado 10/12/2022 en Bv. 
-              Eva Perón y Rodriguez Peña.
-              <br/>
-              Te espero!
+              {{$texto}}
               <p></p>
               <img src="/img/flash.gif" style="position: absolute; top: -130px;
               right: -14px;

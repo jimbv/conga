@@ -17,7 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('invitacion/{codigo}', function ($codigo) {
-    $prueba = $ip = trim(shell_exec("dig +short myip.opendns.com @resolver1.opendns.com"));
-    return view('invitacion', ['prueba' => $prueba]); 
+Route::get('/{codigo}', function ($codigo) {
+    $texto = "Los invito a mi primer cumpleaños a realizarse el día sábado 10/12/2022 en Bv. 
+    Eva Perón y Rodriguez Peña desde las 18:30 Hs.
+    <br/>
+    Los espero!";
+    $invitados = "José y Flor";
+    return view('invitacion', ['texto' => $texto,'invitados' => $invitados]); 
 });
